@@ -85,7 +85,7 @@ class pb:
 					s = surname + ', ' + name + ' has been removed from the phonebook'					
 					break
 			if s == '':
-				s = arg2 + ', ' + arg3 + ' does not exist in phonebook'				
+				s == arg2 + ', ' + arg3 + ' does not exist in phonebook'				
 		else:		
 			s = 'list of cmds:\narg1=list&arg2=name&arg3=surname&arg4=number&arg5=[address] \narg1=list\narg1=delete&arg2=surname&arg3=firstname\narg1=find&arg2=surname\narg1=update&arg2=name&arg3=surname&arg4=number&arg5=address\narg1=help'		
 		with open (pb_file, 'wb') as csvfile:
