@@ -12,7 +12,7 @@ app = web.application(urls, globals())
 class pb:
 
 	def GET(self, name):
-		debug = 1		
+		debug = 0		
 		pb_file = 'pb.csv'		
 		user_input = web.input(arg1='',arg2='',arg3='',arg4='',arg5='')	
 		s = ''
